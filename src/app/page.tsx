@@ -1,5 +1,5 @@
 import BrandBadge from "@/components/BrandBadge";
-import LinkCard from "@/components/LinkCard";
+import LinkList from "@/components/LinkList";
 import ProfileHeader from "@/components/ProfileHeader";
 import ShareButton from "@/components/ShareButton";
 import SocialLinks from "@/components/SocialLinks";
@@ -23,24 +23,7 @@ export default function Home() {
         <SocialLinks links={profile.socialLinks} />
       </div>
 
-      <ul className="mt-8 flex flex-col gap-3">
-        {profile.links.map((item) =>
-          item.type === "header" ? (
-            <li key={item.id} className="pt-3 text-center">
-              <h2 className="text-sm font-bold text-muted">{item.title}</h2>
-            </li>
-          ) : (
-            <li key={item.id}>
-              <LinkCard
-                title={item.title}
-                url={item.url}
-                thumbnailUrl={item.thumbnailUrl}
-                icon={item.icon}
-              />
-            </li>
-          ),
-        )}
-      </ul>
+      <LinkList links={profile.links} />
 
       <footer className="mt-auto flex justify-center pt-10">
         <BrandBadge />
