@@ -35,6 +35,7 @@ export default function Home() {
                 title={item.title}
                 url={item.url}
                 thumbnailUrl={item.thumbnailUrl}
+                icon={item.icon}
               />
             </li>
           ),

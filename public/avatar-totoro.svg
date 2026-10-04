@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <rect width="96" height="96" fill="#cfe3c4"/>
+  <!-- 귀 -->
+  <path d="M29 36 L26 8 L41 29 Z" fill="#7d7f86"/>
+  <path d="M67 36 L70 8 L55 29 Z" fill="#7d7f86"/>
+  <!-- 몸통 -->
+  <ellipse cx="48" cy="68" rx="35" ry="40" fill="#7d7f86"/>
+  <!-- 배 -->
+  <ellipse cx="48" cy="80" rx="24" ry="24" fill="#f1ead8"/>
+  <g fill="none" stroke="#7d7f86" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 70 l4 -4 l4 4"/>
+    <path d="M44 70 l4 -4 l4 4"/>
+    <path d="M52 70 l4 -4 l4 4"/>
+    <path d="M40 78 l4 -4 l4 4"/>
+    <path d="M48 78 l4 -4 l4 4"/>
+  </g>
+  <!-- 눈 -->
+  <circle cx="35" cy="46" r="6" fill="#fff"/>
+  <circle cx="61" cy="46" r="6" fill="#fff"/>
+  <circle cx="35" cy="46" r="3" fill="#1c1c1a"/>
+  <circle cx="61" cy="46" r="3" fill="#1c1c1a"/>
+  <!-- 코 -->
+  <ellipse cx="48" cy="45" rx="3.5" ry="1.8" fill="#1c1c1a"/>
+  <!-- 수염 -->
+  <g stroke="#1c1c1a" stroke-width="1.2" stroke-linecap="round">
+    <path d="M28 54 L14 52"/>
+    <path d="M28 57 L14 58"/>
+    <path d="M68 54 L82 52"/>
+    <path d="M68 57 L82 58"/>
+  </g>
+</svg>

@@ -5,6 +5,8 @@ export interface SocialLink {
   url: string;
 }
 
+export type LinkIcon = "email";
+
 export type LinkItem =
   | {
       id: string;
@@ -12,6 +14,7 @@ export type LinkItem =
       title: string;
       url: string;
       thumbnailUrl?: string;
+      icon?: LinkIcon;
     }
   | {
       id: string;
